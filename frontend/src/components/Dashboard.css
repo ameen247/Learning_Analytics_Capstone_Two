@@ -1,0 +1,82 @@
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff; /* White background */
+}
+
+.feedback-container {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.feedback-container h2 {
+  font-size: 1.5rem; /* Original font size */
+}
+
+.feedback-container p {
+  font-size: 1rem; /* Original font size */
+}
+
+.score-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.score-box {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px; /* Original padding */
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  flex: 1; /* Make score boxes expand equally */
+  margin: 0 10px; /* Space between score boxes */
+}
+
+.score-box h3 {
+  font-size: 1.2rem; /* Original font size */
+}
+
+.score-box p {
+  font-size: 1.2rem; /* Original font size */
+}
+
+.chart-container {
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.chart-box {
+  width: 45%; /* Adjust the width to make the charts side by side */
+}
+
+.chart-box canvas {
+  max-height: 400px; /* Adjust height to make the chart more attractive */
+}
+
+.button-container {
+  display: flex;
+  justify-content: flex-end; /* Align buttons to the right */
+  width: 100%;
+}
+
+.retry-button, .logout-button {
+  padding: 10px 20px; /* Original padding */
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28a745; /* Green color for buttons */
+  color: white;
+  font-size: 1rem; /* Original font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.retry-button:hover, .logout-button:hover {
+  background-color: #218838; /* Darker green on hover */
+}
